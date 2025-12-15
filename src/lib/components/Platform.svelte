@@ -5,176 +5,158 @@
 <section class="py-24 bg-black text-white">
 	<div class="max-w-[1400px] mx-auto px-6">
 		<div class="text-center mb-20">
-			<h2 class="text-4xl md:text-5xl lg:text-6xl font-serif font-normal mb-6">
-				Your all-in-one<br />
-				AI platform for real work
+			<h2 id="framework" class="text-4xl md:text-5xl lg:text-6xl font-serif font-normal mb-6">
+				The Blank Collar<br />
+				Equation
 			</h2>
 			<p class="text-gray-400 text-lg max-w-2xl mx-auto">
-				A seamless, beautiful way to bring AI into your company's apps, knowledge, and culture.
+				A structured four-module transformation framework that unifies strategy, execution, and AI into rapid outcomes.
 			</p>
 		</div>
 
 		<!-- Row 1 -->
 		<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-			<!-- Card 1: Automate -->
+			<!-- Card 1: Vision & Data -->
 			<div class="bg-[#0f0f0f] rounded-xl p-8 border border-white/5 h-[600px] flex flex-col relative overflow-hidden group">
 				<div class="mb-8 relative z-10">
-					<h3 class="text-lg font-semibold mb-1">Automate</h3>
-					<p class="text-gray-400 text-sm">Run complex, multi-step processes</p>
+					<div class="inline-block bg-primary-500/10 text-primary-400 text-xs font-bold px-3 py-1 rounded-full mb-3">MODULE 1</div>
+					<h3 class="text-lg font-semibold mb-1">Vision & Data</h3>
+					<p class="text-gray-400 text-sm">Strategic direction, operational data extraction, bottleneck identification</p>
 				</div>
                 
                 <!-- Mockup Content -->
                 <div class="flex-1 relative">
                     <div class="absolute inset-0 flex items-center justify-center">
-                         <!-- Abstract representation of workflow -->
+                         <!-- Abstract representation of data flow -->
                          <div class="w-full h-full border border-white/5 rounded-lg bg-[#0a0a0a] p-6 relative">
-                             <div class="absolute top-1/2 left-8 -translate-y-1/2 text-gray-500 text-sm font-mono">
-                                 Building your workflow<br/>
-                                 Viewing in canvas >
+                             <div class="space-y-4">
+                                 <div class="flex items-center gap-3">
+                                     <div class="w-12 h-12 rounded bg-primary-500/20 border border-primary-500/30 flex items-center justify-center text-primary-400 text-xs font-bold">V</div>
+                                     <div class="flex-1 h-2 bg-white/5 rounded"></div>
+                                 </div>
+                                 <div class="flex items-center gap-3">
+                                     <div class="w-12 h-12 rounded bg-primary-500/20 border border-primary-500/30 flex items-center justify-center text-primary-400 text-xs font-bold">D</div>
+                                     <div class="flex-1 h-2 bg-white/5 rounded"></div>
+                                 </div>
+                                 <div class="flex items-center gap-3">
+                                     <div class="w-12 h-12 rounded bg-primary-500/20 border border-primary-500/30 flex items-center justify-center text-primary-400 text-xs font-bold">B</div>
+                                     <div class="flex-1 h-2 bg-white/5 rounded"></div>
+                                 </div>
                              </div>
-                             <!-- Lines/Nodes -->
-                             <div class="absolute right-12 top-12 bottom-12 w-1/3 border-l border-white/5 dashed"></div>
-                             <div class="absolute right-12 top-1/2 w-8 h-px bg-white/10"></div>
-                             <div class="absolute right-4 top-1/2 w-8 h-8 rounded bg-white/5 border border-white/10"></div>
+                             <div class="absolute bottom-6 left-6 right-6 text-[10px] text-gray-600">
+                                 Extract → Analyze → Identify
+                             </div>
                          </div>
                     </div>
                 </div>
 			</div>
 
-			<!-- Card 2: Create -->
+			<!-- Card 2: Process & Communication -->
 			<div class="bg-[#0f0f0f] rounded-xl p-8 border border-white/5 h-[600px] flex flex-col relative overflow-hidden group">
 				<div class="mb-8 relative z-10">
-					<h3 class="text-lg font-semibold mb-1">Create</h3>
-					<p class="text-gray-400 text-sm">Generate collaborative content in any format</p>
+					<div class="inline-block bg-primary-500/10 text-primary-400 text-xs font-bold px-3 py-1 rounded-full mb-3">MODULE 2</div>
+					<h3 class="text-lg font-semibold mb-1">Process & Communication</h3>
+					<p class="text-gray-400 text-sm">Workflow mapping, friction detection, pathway redesign, messaging unification</p>
 				</div>
                 
                 <!-- Mockup Content -->
                 <div class="flex-1 relative bg-[#0a0a0a] rounded-lg border border-white/5 overflow-hidden p-6 flex flex-col">
-                    <!-- Top stats row -->
-                    <div class="flex gap-4 mb-6">
-                        <div class="bg-blue-500/10 p-4 rounded w-1/3 border border-blue-500/20">
-                            <div class="text-xs text-blue-300 mb-1">Revenue</div>
-                            <div class="text-xl font-bold text-blue-400">14% ↗</div>
-                        </div>
-                         <div class="bg-white/5 p-4 rounded w-1/3 border border-white/10">
-                            <div class="text-xs text-gray-400 mb-1">Productivity</div>
-                            <div class="text-xl font-bold text-white">64%</div>
-                        </div>
-                         <div class="bg-white/5 p-4 rounded w-1/3 border border-white/10">
-                            <div class="text-xs text-gray-400 mb-1">Efficiency</div>
-                            <div class="text-xl font-bold text-white">7%</div>
-                        </div>
+                    <!-- Flow diagram -->
+                    <div class="flex items-center justify-between mb-6">
+                        <div class="w-16 h-16 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center text-xs text-gray-500">Start</div>
+                        <div class="flex-1 h-px bg-white/10 mx-2"></div>
+                        <div class="w-16 h-16 rounded-lg bg-primary-500/10 border border-primary-500/30 flex items-center justify-center text-xs text-primary-400">Map</div>
+                        <div class="flex-1 h-px bg-white/10 mx-2"></div>
+                        <div class="w-16 h-16 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center text-xs text-gray-500">End</div>
                     </div>
                     
-                    <!-- Chart -->
-                    <div class="flex-1 w-full relative mt-4">
-                         <svg class="w-full h-full overflow-visible" viewBox="0 0 100 50" preserveAspectRatio="none">
-                             <!-- Grid lines -->
-                             <line x1="0" y1="10" x2="100" y2="10" stroke="#333" stroke-width="0.5" stroke-dasharray="2 2" />
-                             <line x1="0" y1="25" x2="100" y2="25" stroke="#333" stroke-width="0.5" stroke-dasharray="2 2" />
-                             <line x1="0" y1="40" x2="100" y2="40" stroke="#333" stroke-width="0.5" stroke-dasharray="2 2" />
-                             
-                             <!-- Lines -->
-                             <path d="M0 45 C 20 40, 40 30, 60 25 S 80 15, 100 5" fill="none" stroke="#3b82f6" stroke-width="2" />
-                             <path d="M0 48 C 20 45, 40 40, 60 38 S 80 35, 100 30" fill="none" stroke="#10b981" stroke-width="2" />
-                             
-                             <!-- Area under curve (fake) -->
-                             <path d="M0 48 C 20 45, 40 40, 60 38 S 80 35, 100 30 V 50 H 0 Z" fill="#10b981" fill-opacity="0.1" />
-                         </svg>
+                    <!-- Process steps -->
+                    <div class="space-y-2 flex-1">
+                         <div class="bg-white/5 p-3 rounded text-[10px] text-gray-400">1. Current state mapping</div>
+                         <div class="bg-white/5 p-3 rounded text-[10px] text-gray-400">2. Friction point detection</div>
+                         <div class="bg-white/5 p-3 rounded text-[10px] text-gray-400">3. Pathway optimization</div>
+                         <div class="bg-white/5 p-3 rounded text-[10px] text-gray-400">4. Communication unification</div>
                     </div>
                 </div>
 			</div>
 		</div>
 
         <!-- Row 2 -->
-		<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-			<!-- Card 3: Analyze -->
+		<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+			<!-- Card 3: User Experience & UI -->
 			<div class="bg-[#0f0f0f] rounded-xl p-8 border border-white/5 h-[500px] flex flex-col relative overflow-hidden group">
 				<div class="mb-8 relative z-10">
-					<h3 class="text-lg font-semibold mb-1">Analyze</h3>
-					<p class="text-gray-400 text-sm">Turn data into live dashboards and reports</p>
+					<div class="inline-block bg-primary-500/10 text-primary-400 text-xs font-bold px-3 py-1 rounded-full mb-3">MODULE 3</div>
+					<h3 class="text-lg font-semibold mb-1">User Experience & UI</h3>
+					<p class="text-gray-400 text-sm">Human experience design, interface layer creation, adoption optimization</p>
 				</div>
                 
-                 <!-- Mockup Content - Code Editor Look -->
-                <div class="flex-1 relative bg-[#0a0a0a] rounded-lg border border-white/5 overflow-hidden p-4 font-mono text-[10px] leading-relaxed text-gray-400 shadow-inner">
-                    <div class="flex gap-1.5 mb-4 border-b border-white/5 pb-2">
-                        <div class="w-2 h-2 rounded-full bg-red-500/50"></div>
-                        <div class="w-2 h-2 rounded-full bg-yellow-500/50"></div>
-                        <div class="w-2 h-2 rounded-full bg-green-500/50"></div>
-                    </div>
-                    <div class="space-y-1">
-                        <div class="text-purple-400">from <span class="text-white">future_import</span> import <span class="text-yellow-300">annotations</span></div>
-                        <div class="text-purple-400">from <span class="text-white">typing</span> import <span class="text-yellow-300">List, Optional</span></div>
-                        <br/>
-                         <div class="text-purple-400">class <span class="text-yellow-300">DataAnalyzer</span>:</div>
-                         <div class="pl-4 text-gray-600">"""Analyzer for processing large datasets"""</div>
-                         <div class="pl-4 text-purple-400">def <span class="text-blue-400">__init__</span>(self, data: List[Any]):</div>
-                         <div class="pl-8 text-white">self.data = data</div>
-                         <div class="pl-8 text-white">self.processed = False</div>
-                         <div class="pl-4 text-purple-400">def <span class="text-blue-400">analyze</span>(self):</div>
-                         <div class="pl-8 text-white">if not self.data:</div>
-                         <div class="pl-12 text-purple-400">return <span class="text-orange-400">None</span></div>
-                    </div>
-                </div>
-			</div>
-
-			<!-- Card 4: Act -->
-			<div class="bg-[#0f0f0f] rounded-xl p-8 border border-white/5 h-[500px] flex flex-col relative overflow-hidden group">
-				<div class="mb-8 relative z-10">
-					<h3 class="text-lg font-semibold mb-1">Act</h3>
-					<p class="text-gray-400 text-sm">Take instant actions across your tools</p>
-				</div>
-                
-                 <!-- Mockup Content - Action Card -->
-                <div class="flex-1 relative flex items-center justify-center">
-                    <div class="bg-[#1a1a1a] border border-white/10 rounded-xl p-5 w-full shadow-2xl relative">
-                        <!-- Glow effect -->
-                        <div class="absolute -inset-1 bg-gradient-to-r from-blue-500/20 to-purple-500/20 blur opacity-50"></div>
-                        
-                        <div class="relative bg-[#1a1a1a] rounded-xl">
-                            <div class="flex items-center gap-3 mb-4">
-                                <div class="w-8 h-8 rounded bg-white/10 flex items-center justify-center shrink-0">
-                                    <div class="w-4 h-4 bg-white rotate-45"></div>
-                                </div>
-                                <div>
-                                    <div class="font-medium text-xs text-white">Meeting with Vandelay Inc. finished</div>
-                                    <div class="text-[10px] text-gray-500">Update Salesforce after meeting</div>
-                                </div>
+                 <!-- Mockup Content - Interface Design -->
+                <div class="flex-1 relative bg-[#0a0a0a] rounded-lg border border-white/5 overflow-hidden p-4 shadow-inner">
+                    <div class="space-y-3">
+                        <!-- Interface element 1 -->
+                        <div class="bg-white/5 rounded-lg p-4 border border-white/10">
+                            <div class="flex items-center gap-2 mb-2">
+                                <div class="w-6 h-6 rounded bg-primary-500/20"></div>
+                                <div class="h-2 bg-white/10 rounded flex-1"></div>
                             </div>
-                            <div class="h-1.5 w-full bg-white/10 rounded-full overflow-hidden">
-                                <div class="h-full bg-blue-500 w-2/3"></div>
+                            <div class="h-1.5 bg-white/5 rounded w-3/4"></div>
+                        </div>
+                        <!-- Interface element 2 -->
+                        <div class="bg-white/5 rounded-lg p-4 border border-white/10">
+                            <div class="flex items-center gap-2 mb-2">
+                                <div class="w-6 h-6 rounded bg-primary-500/20"></div>
+                                <div class="h-2 bg-white/10 rounded flex-1"></div>
                             </div>
+                            <div class="h-1.5 bg-white/5 rounded w-2/3"></div>
+                        </div>
+                        <!-- Interface element 3 -->
+                        <div class="bg-white/5 rounded-lg p-4 border border-white/10">
+                            <div class="flex items-center gap-2 mb-2">
+                                <div class="w-6 h-6 rounded bg-primary-500/20"></div>
+                                <div class="h-2 bg-white/10 rounded flex-1"></div>
+                            </div>
+                            <div class="h-1.5 bg-white/5 rounded w-4/5"></div>
                         </div>
                     </div>
+                    <div class="absolute bottom-4 left-4 right-4 text-[10px] text-gray-600">
+                        Designed for non-technical users
+                    </div>
                 </div>
 			</div>
 
-            <!-- Card 5: Find -->
+			<!-- Card 4: AI, Augmentation & Automation -->
 			<div class="bg-[#0f0f0f] rounded-xl p-8 border border-white/5 h-[500px] flex flex-col relative overflow-hidden group">
 				<div class="mb-8 relative z-10">
-					<h3 class="text-lg font-semibold mb-1">Find</h3>
-					<p class="text-gray-400 text-sm">All the latest company docs and data</p>
+					<div class="inline-block bg-primary-500/10 text-primary-400 text-xs font-bold px-3 py-1 rounded-full mb-3">MODULE 4</div>
+					<h3 class="text-lg font-semibold mb-1">AI, Augmentation & Automation</h3>
+					<p class="text-gray-400 text-sm">Intelligent workflow integration, agentic orchestration, automation implementation</p>
 				</div>
                 
-                 <!-- Mockup Content - Search/Result -->
-                <div class="flex-1 relative flex flex-col gap-4">
-                    <div class="bg-[#1a1a1a] rounded-lg p-4 text-xs text-gray-300 border border-white/5">
-                        Sure thing! Here's an overview I've made for you.
-                    </div>
-                    
-                    <div class="flex-1 bg-gradient-to-br from-[#1a1a1a] to-black border border-white/10 rounded-lg overflow-hidden flex flex-col">
-                         <div class="relative h-32 bg-gradient-to-r from-purple-500/20 to-blue-500/20 flex items-center justify-center">
-                             <div class="text-center">
-                                 <div class="text-xs font-semibold text-white">Personalized course</div>
-                                 <div class="text-[10px] text-gray-400">8 cards</div>
-                             </div>
-                         </div>
-                         <div class="p-4 flex items-center justify-between mt-auto">
-                             <div class="text-[10px] text-gray-500">Updated 2m ago</div>
-                             <button class="bg-white text-black text-[10px] font-bold px-3 py-1.5 rounded-full flex items-center gap-1 hover:bg-gray-200 transition-colors">
-                                 <Play size={10} fill="currentColor" /> Play
-                             </button>
-                         </div>
+                 <!-- Mockup Content - Automation Flow -->
+                <div class="flex-1 relative flex items-center justify-center">
+                    <div class="w-full space-y-4">
+                        <!-- Agent orchestration visual -->
+                        <div class="flex items-center justify-center gap-4">
+                            <div class="w-20 h-20 rounded-lg bg-primary-500/10 border border-primary-500/30 flex items-center justify-center">
+                                <div class="text-xs text-primary-400 font-bold">Agent 1</div>
+                            </div>
+                            <div class="flex-1 h-px bg-primary-500/30"></div>
+                            <div class="w-20 h-20 rounded-lg bg-primary-500/10 border border-primary-500/30 flex items-center justify-center">
+                                <div class="text-xs text-primary-400 font-bold">Agent 2</div>
+                            </div>
+                        </div>
+                        <div class="flex justify-center">
+                            <div class="w-px h-12 bg-primary-500/30"></div>
+                        </div>
+                        <div class="flex justify-center">
+                            <div class="w-32 h-16 rounded-lg bg-primary-500/20 border border-primary-500/40 flex items-center justify-center">
+                                <div class="text-xs text-primary-300 font-bold">Orchestrator</div>
+                            </div>
+                        </div>
+                        <div class="text-center text-[10px] text-gray-600 mt-4">
+                            N8n + Multi-agent frameworks
+                        </div>
                     </div>
                 </div>
 			</div>

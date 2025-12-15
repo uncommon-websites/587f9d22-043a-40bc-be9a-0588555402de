@@ -5,73 +5,64 @@
 <section class="py-24 bg-black text-white">
 	<div class="max-w-[1400px] mx-auto px-6">
 		<div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
-            <!-- UI Mockup -->
-			<div class="bg-[#0f0f0f] rounded-xl p-12 border border-white/5 relative overflow-hidden h-[600px] flex items-center justify-center">
-                <div class="w-full max-w-sm bg-white rounded-xl shadow-2xl overflow-hidden text-black">
-                    <div class="p-2 border-b border-gray-100 flex justify-between items-center">
-                        <div class="flex items-center gap-2 px-2">
-                            <div class="w-4 h-4 rounded-full bg-gray-200"></div>
-                            <span class="text-sm font-medium">Auto</span>
-                        </div>
-                        <div class="text-xs text-gray-400 px-2">Auto</div>
-                    </div>
-                    
-                    <div class="p-2">
-                        <div class="flex items-start gap-3 p-3 bg-gray-50 rounded-lg mb-1">
-                            <div class="w-4 h-4 rounded-full border border-gray-300 mt-1 flex items-center justify-center">
-                                <div class="w-2 h-2 bg-black rounded-full"></div>
-                            </div>
-                            <div>
-                                <div class="text-sm font-medium">Auto</div>
-                                <div class="text-xs text-gray-500">The most suitable model for the job</div>
-                            </div>
-                            <Check size={16} class="ml-auto text-black" />
-                        </div>
-
-                        <div class="flex items-start gap-3 p-3 hover:bg-gray-50 rounded-lg mb-1 opacity-50">
-                            <div class="w-4 h-4 rounded-full border border-gray-300 mt-1"></div>
-                            <div>
-                                <div class="text-sm font-medium">GPT-4</div>
-                                <div class="text-xs text-gray-500">Flagship GPT model for complex tasks</div>
-                            </div>
-                        </div>
-
-                        <div class="flex items-start gap-3 p-3 hover:bg-gray-50 rounded-lg mb-1 opacity-50">
-                            <div class="w-4 h-4 rounded-full border border-gray-300 mt-1"></div>
-                            <div>
-                                <div class="text-sm font-medium">Claude Sonnet 3.5</div>
-                                <div class="text-xs text-gray-500">Anthropic's flagship model, industry-leading for coding tasks</div>
-                            </div>
-                        </div>
-                        
-                         <div class="flex items-start gap-3 p-3 hover:bg-gray-50 rounded-lg mb-1 opacity-50">
-                            <div class="w-4 h-4 rounded-full border border-gray-300 mt-1"></div>
-                            <div>
-                                <div class="text-sm font-medium">Claude Haiku 3.5</div>
-                                <div class="text-xs text-gray-500">Fast responses with near-frontier intelligence</div>
-                            </div>
-                        </div>
-
-                         <div class="flex items-start gap-3 p-3 hover:bg-gray-50 rounded-lg opacity-50">
-                            <div class="w-4 h-4 rounded-full border border-gray-300 mt-1"></div>
-                            <div>
-                                <div class="text-sm font-medium">GPT-4o mini</div>
-                                <div class="text-xs text-gray-500">Balanced for speed and cost efficiency</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-			</div>
-
             <!-- Text Content -->
 			<div>
 				<h2 class="text-4xl md:text-5xl lg:text-6xl font-serif font-normal mb-6 leading-tight">
-					Only use the AI models<br />
-					that work best for you
+					No dependency<br />
+					by design
 				</h2>
-				<p class="text-gray-400 text-lg max-w-md">
-					With Sana, you can choose and switch between leading models as you need.
+				<p class="text-gray-400 text-lg max-w-md mb-8">
+					Every solution is built for maintainability by non-technical users. You own it, you control it, you scale it.
 				</p>
+				<ul class="space-y-4">
+					<li class="flex items-start gap-3">
+						<div class="w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-white text-[10px] font-bold mt-0.5 shrink-0">✓</div>
+						<span class="text-gray-300 text-sm">Complete training and documentation included</span>
+					</li>
+					<li class="flex items-start gap-3">
+						<div class="w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-white text-[10px] font-bold mt-0.5 shrink-0">✓</div>
+						<span class="text-gray-300 text-sm">Built with widely adopted, stable platforms</span>
+					</li>
+					<li class="flex items-start gap-3">
+						<div class="w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-white text-[10px] font-bold mt-0.5 shrink-0">✓</div>
+						<span class="text-gray-300 text-sm">Designed for iteration without external support</span>
+					</li>
+					<li class="flex items-start gap-3">
+						<div class="w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-white text-[10px] font-bold mt-0.5 shrink-0">✓</div>
+						<span class="text-gray-300 text-sm">Full handover ensures client independence</span>
+					</li>
+				</ul>
+			</div>
+
+            <!-- Visual -->
+			<div class="bg-[#0f0f0f] rounded-xl p-12 border border-white/5 relative overflow-hidden h-[600px] flex items-center justify-center">
+                <div class="w-full h-full flex flex-col items-center justify-center gap-8">
+					<!-- Central concept -->
+					<div class="w-48 h-48 rounded-2xl bg-primary-500/10 border-2 border-primary-500/30 flex items-center justify-center relative">
+						<div class="text-center">
+							<div class="text-3xl font-bold text-primary-400 mb-2">You</div>
+							<div class="text-xs text-gray-500">Full Control</div>
+						</div>
+						
+						<!-- Radiating elements -->
+						<div class="absolute -top-12 left-1/2 -translate-x-1/2 w-20 h-20 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center">
+							<div class="text-[10px] text-gray-500 text-center">Own</div>
+						</div>
+						<div class="absolute -bottom-12 left-1/2 -translate-x-1/2 w-20 h-20 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center">
+							<div class="text-[10px] text-gray-500 text-center">Maintain</div>
+						</div>
+						<div class="absolute top-1/2 -translate-y-1/2 -left-24 w-20 h-20 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center">
+							<div class="text-[10px] text-gray-500 text-center">Scale</div>
+						</div>
+						<div class="absolute top-1/2 -translate-y-1/2 -right-24 w-20 h-20 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center">
+							<div class="text-[10px] text-gray-500 text-center">Iterate</div>
+						</div>
+					</div>
+					
+					<div class="text-center text-sm text-gray-500 max-w-xs">
+						No vendor lock-in. No ongoing dependency. Just clean, maintainable solutions.
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
